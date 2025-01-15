@@ -1,0 +1,181 @@
+*{
+    text-decoration: none; 
+    box-sizing: border-box;
+ }
+ 
+ html{
+     scroll-behavior: smooth;
+     width: 100%;
+     height: 100%;
+     
+ }
+ 
+ .portfolio{
+
+ 
+ }
+ body{
+     background: #FFFFFF;
+     background: linear-gradient(135deg, #141313, #2A234C);
+     background: linear-gradient(135deg, #976047, #FF6B01);
+     background-size: 100%;
+ }
+ 
+ .nav1{
+     display: flex; align-items: center; justify-content: space-between; width: 100%;
+     height: 200px;
+ }
+ 
+ .logo a{
+     font-size: 35px; font-weight: 600; color: white;
+     height: 100%; 
+ }
+ 
+ .logo1 a{
+     justify-content: space-between; align-items: center;
+     margin-right: 0px; 
+     margin-left: auto;
+     border-radius: 10px 10px 10px 10px;
+ }
+ 
+ .navbar{
+     height: 100px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding-right: 15px;
+     padding-left: 15px;
+     border-radius: 10px;
+ }
+ 
+ li{
+     list-style: none;
+     display: inline-block;
+     justify-content: center;
+     
+ 
+ }
+ 
+ li a{
+    
+     text-shadow: 2px 2px black;
+     color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+ }
+ 
+ 
+ .home{
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+     padding-bottom: 100px;
+ }
+ 
+ h1{
+    font-size: 3.157rem;
+ }
+ .welcome ,h2{
+     padding-top: 100px;
+     font-size: 4.209rem;
+     color:white;
+     text-shadow: 2px 2px black;
+ }
+
+ h3{
+    font-size: 3.157rem;
+ }
+
+ p {
+    font-size: 1rem;
+ }
+ 
+ .Uruma {
+     height: auto;
+     display: flex;
+     align-items: center;
+     padding-top: 20px;
+     justify-content: center;
+     flex-direction: column;
+     border-radius: 50%;
+ }
+ 
+ .about{
+     text-align: center;
+     color: white;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     margin-top: 250px;
+     margin-bottom: 300px;
+ }
+ 
+ .Info, .Info2{
+     font-size: 20px;
+     align-items: center;
+     margin-left: 150px;
+     margin-right: 150px;
+     flex: 1;
+ }
+
+ #Projects {
+    text-align: center;
+    padding: 80px 0;
+ }
+ 
+ .Start{
+     margin-bottom: 100px;
+     
+     font-size: 35px;
+     text-shadow: 2px 2px black;
+ }
+ 
+ .ExtracurricularsImage{
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 10%;
+    margin-left: 200px;
+    
+ }
+
+
+.extra{
+    border-radius: 10%;
+    
+}
+
+ .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+
+ }
+
+ header{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+ .Extracurriculars ol{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+    font-size: 1.618rem;
+ }
+ .extra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+ }
